@@ -1,0 +1,9 @@
+name: 'Create issue'
+description: 'Greet someone and record the time'
+inputs:
+  repo-token:
+    description: 'GitHub Token'
+    required: true
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
